@@ -17,4 +17,3 @@ jobs:
         TARGET_REPO: haer0248/mclist-wiki
         TARGET_BRANCH: main
         BUILD_SCRIPT: npm run build
-        BUILD_DIR: docs/.vuepress/dist/
