@@ -1,4 +1,4 @@
-name: Guide deploy
+name: Document deploy
 
 on:
   # trigger deployment on every push to main branch
