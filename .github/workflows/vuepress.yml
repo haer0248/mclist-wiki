@@ -7,10 +7,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
+    - name: Install dependencies
+      run: npm install
+        
     - name: Build and Deploy
       uses: rreichel3/vuepress-github-actions-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_DIR: docs/.vuepress/dist
-        BUILD_SCRIPT: npm install && npm run build
+        BUILD_SCRIPT: npm run build
         PAGES_CNAME: doc.mc-list.xyz
