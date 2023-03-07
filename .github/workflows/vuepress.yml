@@ -11,7 +11,7 @@ permissions:
   contents: write
   
 jobs:
-  guide:
+  docs:
     runs-on: ubuntu-latest
 
     steps:
@@ -35,3 +35,14 @@ jobs:
             CNAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: docs
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
