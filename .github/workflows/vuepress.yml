@@ -7,11 +7,8 @@ on:
   # trigger deployment manually
   workflow_dispatch:
   
-permissions:
-  contents: write
-  
 jobs:
-  docs:
+  Build:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,13 +33,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  deploy:
+  Deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: docs
+    needs: Build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
