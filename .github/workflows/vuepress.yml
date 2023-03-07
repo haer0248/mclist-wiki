@@ -36,7 +36,6 @@ jobs:
         with:
           target_branch: gh-pages
           folder: docs/.vuepress/dist
-          clean: true
           clean-exclude: |
             CNAME
         env:
