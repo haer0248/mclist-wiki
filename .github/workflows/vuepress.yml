@@ -5,7 +5,6 @@ on:
   push:
     branches: [ main ]
   # trigger deployment manually
-  workflow_dispatch:
   
 permissions:
   contents: write
@@ -26,7 +25,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
+          target_branch: gh-pages
           folder: docs/.vuepress/dist
           clean: true
           clean-exclude: |
