@@ -1,19 +1,40 @@
-name: Build and Deploy
-on: [push]
+name: Guide deploy
+
+on:
+  # trigger deployment on every push to main branch
+  push:
+    branches: [ main ]
+  # trigger deployment manually
+  workflow_dispatch:
+  
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
+      - uses: actions/checkout@v2
+        with:
+          # fetch all commits to get last updated time or other git log info
+          fetch-depth: 0
 
-    - name: Install dependencies
-      run: npm install
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          # choose node.js version to use
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
         
-    - name: Build and Deploy
-      uses: rreichel3/vuepress-github-actions-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: docs/.vuepress/dist
-        BUILD_SCRIPT: npm run build
-        PAGES_CNAME: doc.mc-list.xyz
+      - name: Build VuePress site
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          # deploy to gh-pages branch
+          target_branch: gh-pages
+          # deploy the default output dir of VuePress
+          build_dir: docs/.vuepress/dist
+        env:
+          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
