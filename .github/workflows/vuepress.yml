@@ -29,3 +29,9 @@ jobs:
           publish_branch: gh-pages
           publish_dir: docs/.vuepress/dist
           cname: doc.mc-list.xyz
+          
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v1.2.4
+        with:
+         token: ${{ secrets.GITHUB_TOKEN }}
+         error_count: 10
