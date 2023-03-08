@@ -28,7 +28,7 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"git commit -m 'deploy'
         git config --global --add safe.directory "*"
-        git commit -a 'Apply change'
+        git commit -m 'deploy'
 
     - name: Force push to destination branch
       uses: ad-m/github-push-action@v0.5.0
