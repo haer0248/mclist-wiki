@@ -25,9 +25,9 @@ jobs:
         cd docs/.vuepress/dist
         git init
         git add -A
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"git commit -m 'deploy'
-        git config --global --add safe.directory "*"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"  
+        git config --local user.name "github-actions[bot]"git commit -m 'deploy'  
+        git config --global --add safe.directory "*"  
         git commit -m 'deploy'
 
     - name: Force push to destination branch
