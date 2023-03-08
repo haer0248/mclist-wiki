@@ -32,7 +32,7 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: haer0248/mclist-wiki
-          TARGET_BRANCH: gh-pages
+          TARGET_BRANCH: main
           BUILD_SCRIPT: npm run build
           BUILD_DIR: docs/.vuepress/dist
           CNAME: https://doc.mc-list.xyz
