@@ -56,11 +56,17 @@ const config = defineUserConfig({
             text: 'McList 網站',
             link: 'https://www.mc-list.xyz/'
         }, {
-            text: '飯糰 Blog',
-            link: 'https://haer0248.me/'
-        }, {
             text: '支援 Discord',
             link: 'https://discord.gg/VaQAY2s'
+        }, {
+            text: '開發者',
+            children: [{
+                text: '飯糰 Blog',
+                link: 'https://haer0248.me/'
+            }, {
+                text: 'Twitter',
+                link: 'https://twitter.com/haer0248'
+            }]
         }]
     }),
 

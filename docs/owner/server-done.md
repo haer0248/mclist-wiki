@@ -18,6 +18,6 @@ URL: `user/log-server?伺服器編號`
 
 ## 離線通知
 ::: warning
-必須完成[綁定 Discord](bind-discord.md)
+必須完成[綁定 Discord](/other/bind-discord.md)
 :::
 ![Server Offline](/images/server_offline.png)

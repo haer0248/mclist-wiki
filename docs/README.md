@@ -1,4 +1,4 @@
-# 關於
+# 關於 McList
 
 ## [Minecraft 伺服器列表](https://www.mc-list.xyz/)
 
@@ -6,6 +6,9 @@
 沒有東西可以寫了。
 
 ![Image](https://www.mc-list.xyz/assets/fbimg.png)
+
+## [年度回顧](https://haer0248.me/category/mc-list/)
+每年年底，我們都會統計去年的瀏覽及網站部分資料。
 
 ## 開發人員
 [猫又おにぎり](https://github.com/haer0248) - 網頁/伺服器維護  

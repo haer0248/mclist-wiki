@@ -2,6 +2,11 @@
 首頁點擊後，由跳出的視窗中點擊「看資訊」即可到此頁面。  
 URL: `伺服器編號/info`
 
+::: danger
+若有發現資料不實情形，請聯繫管理員處理。
+- 人數不符合、免費架設平台、標籤不符合等
+:::
+
 ## 伺服資訊
 這邊會顯示伺服器圖示、MOTD 以及服主在這邊留下的說明。  
 下方有前往官方網站即前往 Discord 連結，若服主沒有設定或設定錯誤這邊將無法點選。  
@@ -16,6 +21,9 @@ URL: `伺服器編號/info`
 |驗證方式|這邊可以知道伺服器允許正版或非正版及是否需要白名單|
 
 ## 投票獎勵
+::: tip
+當過了每日 00:00，就可以重新投票。
+:::
 當伺服器服主有設定投票獎勵 ([Votifier](https://haer0248.me/475/)) 時，在這邊投票可以同時在遊戲中獲得通知或獎勵。  
 但沒有的話，只有提升伺服器在首頁的分類排名。
 
@@ -27,28 +35,8 @@ URL: `伺服器編號/info`
 
 ## 狀態圖
 ::: tip
-可使用於[「巴哈姆特哈拉區」](https://forum.gamer.com.tw/B.php?bsn=18673)，[正確填寫方式](https://www.mc-list.xyz/gamer-status-image)。
+可使用於[「巴哈姆特哈拉區」](https://forum.gamer.com.tw/B.php?bsn=18673)並請參考[使用填寫方式](/other/banner.md)。
 ::: 
-
-:::: code-group
-::: code-group-item 網址
-```:no-line-numbers
-https://image.mc-list.xyz/banner/圖片編號-伺服器註冊編號.png
-```
-:::
-::: code-group-item HTML 格式
-```html:no-line-numbers
-<a href="https://www.mc-list.xyz/伺服器註冊編號/info" target="_blank">
-    <img src="https://image.mc-list.xyz/banner/圖片編號-伺服器註冊編號.png" />
-</a>
-```
-:::
-::: code-group-item 巴哈姆特格式
-```md:no-line-numbers
-[url=https://www.mc-list.xyz/伺服器註冊編號/info][img=https://image.mc-list.xyz/banner/圖片編號-伺服器註冊編號.png][/url]
-```
-:::
-::::
 預覽  
 ![Banner Preview Image](https://image.mc-list.xyz/banner/20-1.png)
 

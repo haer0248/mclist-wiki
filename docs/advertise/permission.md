@@ -13,6 +13,12 @@
 - Discord 與管理員聯繫
 - [自助開通](https://www.mc-list.xyz/adManager/self-approve)
 
+## 通知
+::: warning
+必須完成[綁定 Discord](/other/bind-discord.md)
+:::
+目前可用[通知類別](/other/bind-discord#類別)：:warning: 廣告失效通知、:credit_card: 廣告付款通知、:white_check_mark: 廣告通過審核通知。
+
 ## [廣告投放須知](https://www.mc-list.xyz/advertising)
 
 為避免廣告遭到濫用，目前此服務並沒有公開給所有使用者，但有需求可前往 [McList 官方 Discord 伺服器](https://discord.gg/VaQAY2s) 加入詢問，管理員會協助您進行廣告投放（或使用自助開通功能）。

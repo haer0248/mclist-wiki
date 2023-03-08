@@ -5,6 +5,9 @@ const sidebar: SidebarConfig = {
       text: '首頁',
       children: [
         '/',
+        '/change-log',
+        '/terms',
+        '/privacy',
       ]
     }, {
       text: '玩家',
@@ -17,7 +20,8 @@ const sidebar: SidebarConfig = {
       children: [
         '/owner/server-create',
         '/owner/server-verify',
-        '/owner/server-done'
+        '/owner/server-done',
+        '/owner/mailbox',
       ]
     }, {
       text: '廣告',
@@ -27,7 +31,9 @@ const sidebar: SidebarConfig = {
     }, {
       text: '其他',
       children: [
-        '/other/bind-discord'
+        '/other/bind-discord',
+        '/other/banner',
+        '/other/tools',
       ]
     }
   ]
