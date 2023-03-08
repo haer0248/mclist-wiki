@@ -23,7 +23,7 @@ jobs:
           cd docs
           npm run build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
           branch: gh-pages
           folder: docs/.vuepress/dist
