@@ -27,15 +27,13 @@ jobs:
           npm ci
           npm run build
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          force: true
-          branch: gh-pages
-          folder: docs/.vuepress/dist
-          clean: true
-          clean-exclude: |
-            CNAME
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: haer0248/mclist-wiki
+          TARGET_BRANCH: gh-pages
+          BUILD_SCRIPT: npm run build
+          BUILD_DIR: docs/.vuepress/dist
+          CNAME: https://doc.mc-list.xyz
 
