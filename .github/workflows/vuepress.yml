@@ -27,3 +27,5 @@ jobs:
         with:
           branch: gh-pages
           folder: docs/.vuepress/dist
+          cname: doc.mc-list.xuz
+          publish_dir: '.'
