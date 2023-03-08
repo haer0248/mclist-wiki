@@ -1,0 +1,32 @@
+import{_ as c,M as a,p as r,q as i,R as t,N as s,t as n,V as o,a1 as u}from"./framework-5866ffd3.js";const d={},k=t("h1",{id:"api",tabindex:"-1"},[t("a",{class:"header-anchor",href:"#api","aria-hidden":"true"},"#"),n(" API")],-1),_=t("div",{class:"custom-container tip"},[t("p",{class:"custom-container-title"},"提示"),t("p",null,"年久失修，我甚至已經忘記它的存在了")],-1),g={href:"https://www.mc-list.xyz/user/api",target:"_blank",rel:"noopener noreferrer"},y=t("code",null,"/user/api",-1),h=t("h2",{id:"功能",tabindex:"-1"},[t("a",{class:"header-anchor",href:"#功能","aria-hidden":"true"},"#"),n(" 功能")],-1),m=t("p",null,"目前只能拿所有伺服器的列表，沒了",-1),f={class:"custom-container warning"},x=t("p",{class:"custom-container-title"},"需要授權",-1),b={href:"https://www.mc-list.xyz/user",target:"_blank",rel:"noopener noreferrer"},v={href:"https://www.mc-list.xyz/user/api",target:"_blank",rel:"noopener noreferrer"},w=u(`<p>Base URL</p><div class="language-text" data-ext="text"><pre class="language-text"><code>https://api.mc-list.xyz/
+</code></pre></div><p>Request Body (僅接受 <code>multipart/form-data</code> &amp; <code>application/x-www-form-urlencoded</code>)</p><table><thead><tr><th style="text-align:left;">key</th><th style="text-align:left;">type</th><th style="text-align:left;">value</th><th style="text-align:left;">require</th></tr></thead><tbody><tr><td style="text-align:left;">type</td><td style="text-align:left;">string</td><td style="text-align:left;">serverList</td><td style="text-align:left;">true</td></tr><tr><td style="text-align:left;">apikey</td><td style="text-align:left;">string</td><td style="text-align:left;">your key</td><td style="text-align:left;">true</td></tr><tr><td style="text-align:left;">limit</td><td style="text-align:left;">integer</td><td style="text-align:left;">10</td><td style="text-align:left;">false</td></tr></tbody></table><p>Response</p>`,5),C=t("div",{class:"language-json","data-ext":"json"},[t("pre",{class:"language-json"},[t("code",null,[t("span",{class:"token punctuation"},"{"),n(`
+    `),t("span",{class:"token property"},'"statusCode"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token number"},"0"),t("span",{class:"token punctuation"},","),n(`
+    `),t("span",{class:"token property"},'"limit"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token number"},"7"),t("span",{class:"token punctuation"},","),n(`
+    `),t("span",{class:"token property"},'"result"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token punctuation"},"["),n(`
+        `),t("span",{class:"token punctuation"},"{"),n(`
+            `),t("span",{class:"token property"},'"name"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token string"},'"無名氏伺服器"'),t("span",{class:"token punctuation"},","),n(`
+            `),t("span",{class:"token property"},'"ip"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token string"},'"amssv.club"'),t("span",{class:"token punctuation"},","),n(`
+            `),t("span",{class:"token property"},'"version"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token string"},'"1.16.5"'),t("span",{class:"token punctuation"},","),n(`
+            `),t("span",{class:"token property"},'"vote"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token number"},"7"),t("span",{class:"token punctuation"},","),n(`
+            `),t("span",{class:"token property"},'"status"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token number"},"1"),t("span",{class:"token punctuation"},","),n(`
+            `),t("span",{class:"token property"},'"players"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token punctuation"},"{"),n(`
+                `),t("span",{class:"token property"},'"online"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token number"},"24"),t("span",{class:"token punctuation"},","),n(`
+                `),t("span",{class:"token property"},'"max"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token number"},"30"),n(`
+            `),t("span",{class:"token punctuation"},"}"),t("span",{class:"token punctuation"},","),n(`
+            `),t("span",{class:"token property"},'"tags"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token punctuation"},"["),n(`
+                `),t("span",{class:"token string"},'"生存"'),t("span",{class:"token punctuation"},","),n(`
+                `),t("span",{class:"token string"},'"飛行"'),t("span",{class:"token punctuation"},","),n(`
+                `),t("span",{class:"token string"},'"領地"'),t("span",{class:"token punctuation"},","),n(`
+                `),t("span",{class:"token string"},'"防噴"'),t("span",{class:"token punctuation"},","),n(`
+                `),t("span",{class:"token string"},'"香草"'),n(`
+            `),t("span",{class:"token punctuation"},"]"),t("span",{class:"token punctuation"},","),n(`
+            `),t("span",{class:"token property"},'"createTime"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token string"},'"1970/01/01 08:00:00"'),t("span",{class:"token punctuation"},","),n(`
+            `),t("span",{class:"token property"},'"icon"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token string"},'""'),n(`
+        `),t("span",{class:"token punctuation"},"}"),n(`
+    `),t("span",{class:"token punctuation"},"]"),n(`
+`),t("span",{class:"token punctuation"},"}"),n(`
+`)])])],-1),I=t("div",{class:"language-json","data-ext":"json"},[t("pre",{class:"language-json"},[t("code",null,[t("span",{class:"token punctuation"},"{"),n(`
+	`),t("span",{class:"token property"},'"statusCode"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token number"},"1"),t("span",{class:"token punctuation"},","),n(`
+	`),t("span",{class:"token property"},'"errorMessage"'),t("span",{class:"token operator"},":"),n(),t("span",{class:"token string"},'"API Key 錯誤。"'),n(`
+`),t("span",{class:"token punctuation"},"}"),n(`
+`)])])],-1),j=t("div",{class:"custom-container warning"},[t("p",{class:"custom-container-title"},"注意"),t("p",null,"有限制呼叫次數，一組 key 單日內上限 10,000 次")],-1);function B(N,V){const e=a("ExternalLinkIcon"),p=a("CodeGroupItem"),l=a("CodeGroup");return r(),i("div",null,[k,_,t("p",null,[t("a",g,[y,s(e)])]),h,m,t("div",f,[x,t("p",null,[n("此功能需要"),t("a",b,[n("登入帳號"),s(e)]),n("後"),t("a",v,[n("取得 API Key"),s(e)]),n("才可以使用。")])]),w,s(l,null,{default:o(()=>[s(p,{title:"成功"},{default:o(()=>[C]),_:1}),s(p,{title:"失敗"},{default:o(()=>[I]),_:1})]),_:1}),j])}const G=c(d,[["render",B],["__file","api.html.vue"]]);export{G as default};
