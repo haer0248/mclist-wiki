@@ -1,21 +1,29 @@
+
 name: Deploy
-on: [push]
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
-    
-    - name: Create git
-      run: |
-        git init
-        
-    - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: haer0248/mclist-wiki
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: npm install && npm run build
-        BUILD_DIR: docs/.vuepress/dist/
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+      - name: Install Dependencies
+        run: |
+          cd docs
+          npm install
+      - name: Build
+        run: |
+          cd docs
+          npm run build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        with:
+          branch: gh-pages
+          folder: docs/.vuepress/dist
