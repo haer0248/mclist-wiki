@@ -2,6 +2,8 @@
 ::: warning 需要登入
 此功能需要[登入帳號](https://www.mc-list.xyz/user)才可以使用
 :::
+`/user/server-configure`
+
 任何玩家都可以新增伺服器，點擊上方「我的伺服器」後，按下「新增」進入新增頁面。  
 依照頁面中輸入以下資料
 

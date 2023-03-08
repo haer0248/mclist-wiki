@@ -7,7 +7,7 @@ import plugins from './plugin'
 const config = defineUserConfig({
     base: '/',
     lang: 'zh-TW',
-    title: 'Minecraft 伺服器列表',
+    title: 'McList 文件',
     description: '',
     head: [
         ['meta', { charset: 'utf-8' }],
@@ -40,7 +40,7 @@ const config = defineUserConfig({
         editLinkText: 'GitHub のこのページをチェックしてください',
         lastUpdated: true,
         lastUpdatedText: '最新のアップデート',
-        contributors: true,
+        contributors: false,
         contributorsText: '寄稿者',
         backToHome: 'ホームページに戻る',
         openInNewWindow: '新しいウィンドウで開きます',

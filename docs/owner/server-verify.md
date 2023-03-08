@@ -1,5 +1,6 @@
 # 驗證伺服器
-URL: `user/server-configure?伺服器編號#verify`
+
+`user/server-configure?伺服器編號#verify`
 
 ::: warning 需要登入
 此功能需要[登入帳號](https://www.mc-list.xyz/user)才可以使用  

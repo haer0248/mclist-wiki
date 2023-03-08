@@ -1,4 +1,5 @@
-# [服務條款](https://www.mc-list.xyz/terms)
+# 服務條款
+[`/terms`](https://www.mc-list.xyz/terms)
 
 ::: tip
 - 使用網站功能表示您同意本條款

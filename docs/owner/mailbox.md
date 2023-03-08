@@ -1,4 +1,5 @@
 # 站內信箱
+[`/mailbox`](https://www.mc-list.xyz/mailbox)
 
 ::: tip 功能已轉移
 站內信箱部分功能已轉移至 [綁定 Discord](/other/bind-discord)

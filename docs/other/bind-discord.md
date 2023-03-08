@@ -1,7 +1,10 @@
 # 綁定 Discord
+[`/user`](https://www.mc-list.xyz/user)
+
 ::: warning 需要登入
 此功能需要[登入帳號](https://www.mc-list.xyz/user)才可以使用
 :::
+
 前往[我的伺服器](https://www.mc-list.xyz/user)後，點選「點我進行 Discord 綁定」  
 ![Discord Bind](/images/bind_discord.png)
 

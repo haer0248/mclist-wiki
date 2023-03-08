@@ -13,7 +13,8 @@ const sidebar: SidebarConfig = {
       text: '玩家',
       children: [
         '/player/',
-        '/player/ServerInfo'
+        '/player/ServerInfo',
+        '/player/api',
       ]
     }, {
       text: '服主',

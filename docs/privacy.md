@@ -1,4 +1,6 @@
-# [隱私政策](https://www.mc-list.xyz/privacy)
+# 隱私政策
+[`/privacy`](https://www.mc-list.xyz/privacy)
+
 歡迎您光臨「McList 伺服器列表」（以下簡稱本網站）
 
 ::: tip

@@ -1,6 +1,7 @@
 # 關於 McList
 
-## [Minecraft 伺服器列表](https://www.mc-list.xyz/)
+## Minecraft 伺服器列表
+[`https://www.mc-list.xyz/`](https://www.mc-list.xyz/)
 
 網站設立於 2020/02 至今，由 [猫又おにぎり](https://github.com/haer0248) 維護。  
 沒有東西可以寫了。
