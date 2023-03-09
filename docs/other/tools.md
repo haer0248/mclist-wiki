@@ -8,9 +8,11 @@
 - `172.16.0.0/12`
 - `192.168.0.0/16`
 - `localhost`
+- `不正確的連線位置或網域`
 - 需要 [Hamachi](https://vpn.net/) 連線 `25.x.x.x`
 - 虛擬網路卡、VPN
 :::
+![Status Test](/images/status.png)
 
 ## [村民交易列表](https://www.mc-list.xyz/village-trade)
 圖片提供：指音 / command_music#9487
