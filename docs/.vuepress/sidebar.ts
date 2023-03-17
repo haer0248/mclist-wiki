@@ -27,7 +27,8 @@ const sidebar: SidebarConfig = {
     }, {
       text: '廣告',
       children: [
-        '/advertise/permission'
+        '/advertise/permission',
+        '/advertise/payment'
       ]
     }, {
       text: '其他',
