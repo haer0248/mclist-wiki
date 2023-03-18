@@ -41,6 +41,11 @@ https://www.mc-list.xyz/伺服器註冊編號/info
 
 ## 把圖片放到自己的網頁上
 
+::: tip 
+- 放置在自己網頁伺服器上，頻繁更新時，請記得清除[快取](https://zh.wikipedia.org/wiki/缓存)
+- 若無法清除快取，請在圖片網址 `.png` 的後方輸入 `?tmp=1` 或隨機查詢字串。
+:::
+
 :::: code-group
 ::: code-group-item HTML 格式
 ```html:no-line-numbers
