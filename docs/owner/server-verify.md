@@ -3,8 +3,8 @@
 `user/server-configure?伺服器編號#verify`
 
 ::: warning 需要登入
-此功能需要[登入帳號](https://www.mc-list.xyz/user)才可以使用  
-此功能需要至少一個伺服器才可以使用
+- 此功能需要[登入帳號](https://www.mc-list.xyz/user)才可以使用  
+- 此功能需要至少一個伺服器才可以使用
 :::
 為避免資源遭到濫用及伺服器遭他人註冊，我們需要進行擁有者驗證。  
 當您的伺服器在[新增伺服器](server-create.md)後，網站會自動將您導向到驗證伺服器分頁。
