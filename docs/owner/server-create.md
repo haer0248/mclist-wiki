@@ -33,7 +33,8 @@
 
 ### 伺服器核心
 可以選擇 [Java版](https://minecraft.fandom.com/zh/wiki/Java%E7%89%88) 或 [Bedrock版](https://minecraft.fandom.com/zh/wiki/%E5%9F%BA%E5%B2%A9%E7%89%88)。  
-選擇基岩版會在[首頁列表](../player/#列表選項)中有特別一個分頁。
+選擇基岩版會在[首頁列表](../player/#列表選項)中有特別一個分頁，  
+也可以選擇 Java 與 Bedrock 共通。
 
 ### 公開伺服器
 預設公開（顯示連線位置），若設定為否將會隱藏連線位置。
