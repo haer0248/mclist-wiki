@@ -14,6 +14,7 @@ const sidebar: SidebarConfig = {
       children: [
         '/player/',
         '/player/ServerInfo',
+        '/player/search',
         '/player/api',
       ]
     }, {
