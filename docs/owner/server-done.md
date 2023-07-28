@@ -13,12 +13,12 @@
 ![Reload Server](/images/reload_status.png)
 
 ## 伺服器報表
-URL: `user/log-server?伺服器編號`
+URL: `user/log-server?伺服器編號`  
 伺服器開始讀取後，系統就會同時紀錄在何時伺服器狀態及人數，可以在這邊查詢當時的資料，也會統計最高玩家數量及平均值。  
 ![Server Offline](/images/server_log.png)
 
 ## 投票數據
-URL: `user/report-server-vote?伺服器編號`
+URL: `user/report-server-vote?伺服器編號`  
 當伺服器完成驗證後，投票功能自動開放給玩家，可以在後台中查看玩家在您的伺服器投票支持了幾次。
 ::: tip 所有時間投票資料
 ![Vote All Time](/images/vote_all_time.png)
