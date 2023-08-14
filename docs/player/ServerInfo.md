@@ -41,7 +41,7 @@
 ::: tip
 可使用於[「巴哈姆特哈啦區」](https://forum.gamer.com.tw/B.php?bsn=18673)並請參考[使用填寫方式](/other/banner.md)。
 :::
-預覽
+預覽  
 ![Banner Preview Image](https://image.mc-list.xyz/banner/20-4.png)
 
 ## [Open Graph](https://ogp.me/) 分享圖
